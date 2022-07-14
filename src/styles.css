@@ -1,0 +1,44 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.layer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: space-around;
+}
+.card img {
+  width: 100%;
+}
+.card {
+  width: 50vmin;
+  box-shadow: 10px 10px 10px whitesmoke;
+  border-radius: 8px;
+  padding: 0.4rem;
+}
+.c-head {
+  font-size: 1.2rem;
+}
+.d-head {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 104, 104);
+}
+.card a {
+  text-decoration: none;
+  border: 1px solid burlywood;
+  padding: 0.4rem;
+  color: black;
+  background-color: rgb(255, 166, 102);
+}
+.search {
+  text-align: center;
+}
+input {
+  border-radius: 10px;
+  border: 2px solid hotpink;
+  margin: 2rem;
+  width: 60vmax;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
